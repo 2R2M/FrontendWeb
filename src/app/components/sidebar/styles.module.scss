@@ -1,0 +1,26 @@
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    
+    .container{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        align-items: start;
+        
+       .name{
+        position: fixed;
+        top: 0;
+        
+       }
+
+       .sidebarItem {
+        display: grid;
+        
+        }
+    }
+
+    
+}

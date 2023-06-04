@@ -1,0 +1,88 @@
+//@import "../../common/style/variables";
+
+.login__style {
+  background-color:#3B0F42; /* Set background color to #2F2C42 */
+  height: 100vh;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+
+  .login__form {
+    //font-family: $font-roboto-400;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    background-color: #5ED1BA;
+    font-weight: bold;
+    padding: 50px;
+    display: grid;
+    width: 504px;
+    height: 436px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow */
+
+    span {
+      background-color: #ffffff;
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .text_area {
+      background-color: #ffffff;
+      display: grid;
+
+      .login__err {
+        color: red;
+        position: absolute;
+        font-size: 14px;
+      }
+
+      .pass__err {
+        color: red;
+        position: absolute;
+        font-size: 14px;
+      }
+
+      input {
+        background-color: #f6f6f6;
+        margin-top: 30px;
+        padding-left: 15px;
+        font-size: 14px;
+        height: 50px;
+        width: 400px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        resize: none;
+      }
+
+      input:hover {
+        background-color: #EBEBEB;
+      }
+    }
+
+    button {
+      margin-top: 12px;
+      margin-bottom: 12px;
+      background-color: #6200EE;
+      align-self: end;
+      color: #ffffff;
+      font-weight: bold;
+      height: 75px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    button:hover {
+      cursor: pointer;
+    }
+
+    a {
+      color: #9d6ef8;
+    }
+
+    a:hover {
+      color: #7834f8;
+      cursor: pointer;
+    }
+  }
+}

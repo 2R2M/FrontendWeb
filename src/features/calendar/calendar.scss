@@ -1,0 +1,48 @@
+.calendar__block {
+
+  margin: 0 300px 0 300px;
+  padding: 0 24px 0 24px;
+  display: grid;
+  flex-direction: row;
+  background-color: whitesmoke;
+  border-radius: 16px;
+
+  .project {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    margin-bottom: 25px;
+  }
+
+  .colorRed .bar {
+    fill: #FF8E76 !important;
+  }
+
+  .colorRed .bar-progress {
+    fill: #D95B43 !important;
+  }
+
+  .colorGreen .bar {
+    fill: #87e13c !important;
+  }
+
+  .colorGreen .bar-progress {
+    fill: #448c03 !important;
+  }
+
+  .colorBlue .bar {
+    fill: #4f8ada !important;
+  }
+
+  .colorBlue .bar-progress {
+    fill: #12458a !important;
+  }
+
+  .colorYellow .bar {
+    fill: #efdd6a !important;
+  }
+
+  .colorYellow .bar-progress {
+    fill: #c7ae03 !important;
+  }
+}

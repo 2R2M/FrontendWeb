@@ -1,0 +1,59 @@
+.work__form {
+  display: grid;
+  gap: 25px;
+
+  input {
+    border-radius: 8px;
+    border: 2px solid black;
+  }
+
+  .date {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    span {
+      align-self: center;
+      justify-self: start;
+    }
+
+    .date__input {
+      justify-self: end;
+      display: grid;
+      gap: 10px;
+    }
+
+    border-bottom: #cecdcd solid 1px;
+    padding-bottom: 10px;
+  }
+
+  .price {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: #cecdcd solid 1px;
+    padding-bottom: 10px;
+
+    input {
+      height: 30px;
+      padding: 10px;
+      width: 180px;
+      justify-self: end;
+      text-align: start;
+    }
+  }
+
+  .description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: #cecdcd solid 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    input {
+      height: 30px;
+      padding: 10px;
+      width: 250px;
+      justify-self: end;
+      text-align: start;
+    }
+  }
+}

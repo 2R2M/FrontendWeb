@@ -1,0 +1,38 @@
+.default {
+  background: #F6F6F6;
+  border: none;
+  padding: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 60px;
+  width: 160px;
+  font-weight: normal;
+  font-size: medium;
+}
+
+.default:active {
+  background: #d9d8d8;
+
+}
+
+.light {
+  background: #B485F8;
+  margin-top: 15px;
+  border: none;
+  border-radius: 42px;
+  cursor: pointer;
+  height: 38px;
+  min-width: 80px;
+  max-height: 240px;
+  font-weight: normal;
+  font-size: medium;
+  padding: 6px;
+}
+
+.activeb {
+  background: #ddccf8;
+  height: 36px;
+}
+
+
+
